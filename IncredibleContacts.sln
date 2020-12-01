@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - UI", "0 - UI", "{4E311CF0-16C5-4D9D-88EE-62A9FA8515FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{C611F736-4CCE-47BA-95D8-3C84714B94AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{E2DC0130-AB8A-4C63-8B36-74DB32E35809}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{D0AFA220-6338-41B4-A661-0F9654DFBE76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncredibleContacts.Domain", "IncredibleContacts.Domain\IncredibleContacts.Domain.csproj", "{D454D66A-B82F-412B-BF2B-7662301C3352}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncredibleContacts.Infrastructure", "IncredibleContacts.Infrastructure\IncredibleContacts.Infrastructure.csproj", "{33B4B1EB-55E9-4FB2-937B-BB80B48AA561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncredibleContacts.ConsoleApp", "IncredibleContacts.ConsoleApp\IncredibleContacts.ConsoleApp.csproj", "{9F68F79B-24D4-445A-86A0-CBB9E3AE539A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D454D66A-B82F-412B-BF2B-7662301C3352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D454D66A-B82F-412B-BF2B-7662301C3352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D454D66A-B82F-412B-BF2B-7662301C3352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D454D66A-B82F-412B-BF2B-7662301C3352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B4B1EB-55E9-4FB2-937B-BB80B48AA561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B4B1EB-55E9-4FB2-937B-BB80B48AA561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B4B1EB-55E9-4FB2-937B-BB80B48AA561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B4B1EB-55E9-4FB2-937B-BB80B48AA561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F68F79B-24D4-445A-86A0-CBB9E3AE539A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F68F79B-24D4-445A-86A0-CBB9E3AE539A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F68F79B-24D4-445A-86A0-CBB9E3AE539A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F68F79B-24D4-445A-86A0-CBB9E3AE539A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D454D66A-B82F-412B-BF2B-7662301C3352} = {E2DC0130-AB8A-4C63-8B36-74DB32E35809}
+		{33B4B1EB-55E9-4FB2-937B-BB80B48AA561} = {D0AFA220-6338-41B4-A661-0F9654DFBE76}
+		{9F68F79B-24D4-445A-86A0-CBB9E3AE539A} = {4E311CF0-16C5-4D9D-88EE-62A9FA8515FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B75DB3EA-3194-45AF-B94E-645838606BF1}
+	EndGlobalSection
+EndGlobal
