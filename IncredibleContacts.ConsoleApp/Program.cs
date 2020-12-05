@@ -9,7 +9,14 @@ namespace IncredibleContacts.ConsoleApp
     {
         static void Main(string[] args)
         {
-            var service = new ContactService(new ContactListRepository());
+            //var service = new ContactService(
+            //    new ContactSqlDbRepository(
+            //        new Infrastructure.Contexts.ContactsDbContext()
+            //    )
+            //);
+
+            var service = new ContactService(new ContactTextFileRepository());
+
             int option = 0;
 
             do

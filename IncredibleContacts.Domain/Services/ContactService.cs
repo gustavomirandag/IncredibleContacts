@@ -21,7 +21,7 @@ namespace IncredibleContacts.Domain.Services
         public void RegisterContact(Contact contact)
         {
             //Validação
-            if (contact.Name == "")
+            if (contact.Name.Length < 3)
                 return; //Retorno e não cadastro nada
 
             contact.Id = Guid.NewGuid();
@@ -36,6 +36,11 @@ namespace IncredibleContacts.Domain.Services
         public IEnumerable<Contact> GetAllContacts()
         {
             return _repository.ReadAll();
+        }
+
+        public Contact GetContactById(Guid id)
+        {
+            return GetAllContacts().FirstOrDefault(c => c.Id == id);
         }
         
         public void DeleteContact(Guid id)
